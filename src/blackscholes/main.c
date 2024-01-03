@@ -63,7 +63,7 @@ int main(int argc, char** argv)
   setbuf(stdout, NULL);
 
   /* Arguments */
-  int nthreads = 1;
+  int nthreads = 8;
   int cpu      = 0;
 
   int nruns    = 128;

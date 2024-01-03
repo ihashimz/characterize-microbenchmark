@@ -1,0 +1,810 @@
+Setting up schedulers and affinity:
+  * Setting the niceness level:
+      -> trying niceness level = -20
+      -> trying niceness level = -19
+      -> trying niceness level = -18
+      -> trying niceness level = -17
+      -> trying niceness level = -16
+      -> trying niceness level = -15
+      -> trying niceness level = -14
+      -> trying niceness level = -13
+      -> trying niceness level = -12
+      -> trying niceness level = -11
+      -> trying niceness level = -10
+      -> trying niceness level = -9
+      -> trying niceness level = -8
+      -> trying niceness level = -7
+      -> trying niceness level = -6
+      -> trying niceness level = -5
+      -> trying niceness level = -4
+      -> trying niceness level = -3
+      -> trying niceness level = -2
+      -> trying niceness level = -1
+      -> trying niceness level = 0
+    + Process has niceness level = 0
+
+Generating dataset "test":
+  * Dataset size: 4
+  * Invoking genDataset .... Finished
+
+Running "scalar" implementation:
+  * Invoking the implementation 128 times .... Finished
+  * Verifying results .... Success
+  * Running statistics:
+    + Starting statistics run number #1:
+      - Standard deviation = 128
+      - Average = 115
+      - Number of active elements = 128
+      - Number of masked-off = 1
+    + Starting statistics run number #2:
+      - Standard deviation = 124
+      - Average = 112
+      - Number of active elements = 127
+      - Number of masked-off = 0
+  * Runtimes (MATCHING):  112 ns
+  * Dumping runtime informations:
+    - Filename: scalar_runtimes.csv
+    - Opening file .... Succeeded
+    - Writing runtimes ... Finished
+    - Closing file handle .... Finished
+
+Setting up schedulers and affinity:
+  * Setting the niceness level:
+      -> trying niceness level = -20
+      -> trying niceness level = -19
+      -> trying niceness level = -18
+      -> trying niceness level = -17
+      -> trying niceness level = -16
+      -> trying niceness level = -15
+      -> trying niceness level = -14
+      -> trying niceness level = -13
+      -> trying niceness level = -12
+      -> trying niceness level = -11
+      -> trying niceness level = -10
+      -> trying niceness level = -9
+      -> trying niceness level = -8
+      -> trying niceness level = -7
+      -> trying niceness level = -6
+      -> trying niceness level = -5
+      -> trying niceness level = -4
+      -> trying niceness level = -3
+      -> trying niceness level = -2
+      -> trying niceness level = -1
+      -> trying niceness level = 0
+    + Process has niceness level = 0
+
+Generating dataset "test":
+  * Dataset size: 4
+  * Invoking genDataset .... Finished
+
+Running "parallelized" implementation:
+  * Invoking the implementation 128 times .... Finished
+  * Verifying results .... Success
+  * Running statistics:
+    + Starting statistics run number #1:
+      - Standard deviation = 63882
+      - Average = 112107
+      - Number of active elements = 128
+      - Number of masked-off = 3
+    + Starting statistics run number #2:
+      - Standard deviation = 34184
+      - Average = 104204
+      - Number of active elements = 125
+      - Number of masked-off = 3
+    + Starting statistics run number #3:
+      - Standard deviation = 26118
+      - Average = 100700
+      - Number of active elements = 122
+      - Number of masked-off = 3
+    + Starting statistics run number #4:
+      - Standard deviation = 22373
+      - Average = 98495
+      - Number of active elements = 119
+      - Number of masked-off = 2
+    + Starting statistics run number #5:
+      - Standard deviation = 20475
+      - Average = 97267
+      - Number of active elements = 117
+      - Number of masked-off = 4
+    + Starting statistics run number #6:
+      - Standard deviation = 17108
+      - Average = 95068
+      - Number of active elements = 113
+      - Number of masked-off = 2
+    + Starting statistics run number #7:
+      - Standard deviation = 15296
+      - Average = 94004
+      - Number of active elements = 111
+      - Number of masked-off = 1
+    + Starting statistics run number #8:
+      - Standard deviation = 14569
+      - Average = 93540
+      - Number of active elements = 110
+      - Number of masked-off = 0
+  * Runtimes (MATCHING):  93540 ns
+  * Dumping runtime informations:
+    - Filename: parallelized_runtimes.csv
+    - Opening file .... Succeeded
+    - Writing runtimes ... Finished
+    - Closing file handle .... Finished
+
+Setting up schedulers and affinity:
+  * Setting the niceness level:
+      -> trying niceness level = -20
+      -> trying niceness level = -19
+      -> trying niceness level = -18
+      -> trying niceness level = -17
+      -> trying niceness level = -16
+      -> trying niceness level = -15
+      -> trying niceness level = -14
+      -> trying niceness level = -13
+      -> trying niceness level = -12
+      -> trying niceness level = -11
+      -> trying niceness level = -10
+      -> trying niceness level = -9
+      -> trying niceness level = -8
+      -> trying niceness level = -7
+      -> trying niceness level = -6
+      -> trying niceness level = -5
+      -> trying niceness level = -4
+      -> trying niceness level = -3
+      -> trying niceness level = -2
+      -> trying niceness level = -1
+      -> trying niceness level = 0
+    + Process has niceness level = 0
+
+Generating dataset "dev":
+  * Dataset size: 23
+  * Invoking genDataset .... Finished
+
+Running "scalar" implementation:
+  * Invoking the implementation 128 times .... Finished
+  * Verifying results .... Success
+  * Running statistics:
+    + Starting statistics run number #1:
+      - Standard deviation = 625
+      - Average = 943
+      - Number of active elements = 128
+      - Number of masked-off = 2
+    + Starting statistics run number #2:
+      - Standard deviation = 136
+      - Average = 875
+      - Number of active elements = 126
+      - Number of masked-off = 1
+    + Starting statistics run number #3:
+      - Standard deviation = 124
+      - Average = 870
+      - Number of active elements = 125
+      - Number of masked-off = 0
+  * Runtimes (MATCHING):  870 ns
+  * Dumping runtime informations:
+    - Filename: scalar_runtimes.csv
+    - Opening file .... Succeeded
+    - Writing runtimes ... Finished
+    - Closing file handle .... Finished
+
+Setting up schedulers and affinity:
+  * Setting the niceness level:
+      -> trying niceness level = -20
+      -> trying niceness level = -19
+      -> trying niceness level = -18
+      -> trying niceness level = -17
+      -> trying niceness level = -16
+      -> trying niceness level = -15
+      -> trying niceness level = -14
+      -> trying niceness level = -13
+      -> trying niceness level = -12
+      -> trying niceness level = -11
+      -> trying niceness level = -10
+      -> trying niceness level = -9
+      -> trying niceness level = -8
+      -> trying niceness level = -7
+      -> trying niceness level = -6
+      -> trying niceness level = -5
+      -> trying niceness level = -4
+      -> trying niceness level = -3
+      -> trying niceness level = -2
+      -> trying niceness level = -1
+      -> trying niceness level = 0
+    + Process has niceness level = 0
+
+Generating dataset "dev":
+  * Dataset size: 23
+  * Invoking genDataset .... Finished
+
+Running "parallelized" implementation:
+  * Invoking the implementation 128 times .... Finished
+  * Verifying results .... Success
+  * Running statistics:
+    + Starting statistics run number #1:
+      - Standard deviation = 44762
+      - Average = 107359
+      - Number of active elements = 128
+      - Number of masked-off = 3
+    + Starting statistics run number #2:
+      - Standard deviation = 27266
+      - Average = 102040
+      - Number of active elements = 125
+      - Number of masked-off = 4
+    + Starting statistics run number #3:
+      - Standard deviation = 18265
+      - Average = 98355
+      - Number of active elements = 121
+      - Number of masked-off = 3
+    + Starting statistics run number #4:
+      - Standard deviation = 14580
+      - Average = 96569
+      - Number of active elements = 118
+      - Number of masked-off = 1
+    + Starting statistics run number #5:
+      - Standard deviation = 14056
+      - Average = 96192
+      - Number of active elements = 117
+      - Number of masked-off = 4
+    + Starting statistics run number #6:
+      - Standard deviation = 11834
+      - Average = 96192
+      - Number of active elements = 113
+      - Number of masked-off = 3
+    + Starting statistics run number #7:
+      - Standard deviation = 10002
+      - Average = 96531
+      - Number of active elements = 110
+      - Number of masked-off = 2
+    + Starting statistics run number #8:
+      - Standard deviation = 8945
+      - Average = 96530
+      - Number of active elements = 108
+      - Number of masked-off = 3
+    + Starting statistics run number #9:
+      - Standard deviation = 7655
+      - Average = 96266
+      - Number of active elements = 105
+      - Number of masked-off = 1
+    + Starting statistics run number #10:
+      - Standard deviation = 7319
+      - Average = 96036
+      - Number of active elements = 104
+      - Number of masked-off = 0
+  * Runtimes (MATCHING):  96036 ns
+  * Dumping runtime informations:
+    - Filename: parallelized_runtimes.csv
+    - Opening file .... Succeeded
+    - Writing runtimes ... Finished
+    - Closing file handle .... Finished
+
+Setting up schedulers and affinity:
+  * Setting the niceness level:
+      -> trying niceness level = -20
+      -> trying niceness level = -19
+      -> trying niceness level = -18
+      -> trying niceness level = -17
+      -> trying niceness level = -16
+      -> trying niceness level = -15
+      -> trying niceness level = -14
+      -> trying niceness level = -13
+      -> trying niceness level = -12
+      -> trying niceness level = -11
+      -> trying niceness level = -10
+      -> trying niceness level = -9
+      -> trying niceness level = -8
+      -> trying niceness level = -7
+      -> trying niceness level = -6
+      -> trying niceness level = -5
+      -> trying niceness level = -4
+      -> trying niceness level = -3
+      -> trying niceness level = -2
+      -> trying niceness level = -1
+      -> trying niceness level = 0
+    + Process has niceness level = 0
+
+Generating dataset "small":
+  * Dataset size: 4000
+  * Invoking genDataset .... Finished
+
+Running "scalar" implementation:
+  * Invoking the implementation 128 times .... Finished
+  * Verifying results .... Success
+  * Running statistics:
+    + Starting statistics run number #1:
+      - Standard deviation = 6994
+      - Average = 138984
+      - Number of active elements = 128
+      - Number of masked-off = 2
+    + Starting statistics run number #2:
+      - Standard deviation = 6065
+      - Average = 138545
+      - Number of active elements = 126
+      - Number of masked-off = 1
+    + Starting statistics run number #3:
+      - Standard deviation = 5859
+      - Average = 138398
+      - Number of active elements = 125
+      - Number of masked-off = 0
+  * Runtimes (MATCHING):  138398 ns
+  * Dumping runtime informations:
+    - Filename: scalar_runtimes.csv
+    - Opening file .... Succeeded
+    - Writing runtimes ... Finished
+    - Closing file handle .... Finished
+
+Setting up schedulers and affinity:
+  * Setting the niceness level:
+      -> trying niceness level = -20
+      -> trying niceness level = -19
+      -> trying niceness level = -18
+      -> trying niceness level = -17
+      -> trying niceness level = -16
+      -> trying niceness level = -15
+      -> trying niceness level = -14
+      -> trying niceness level = -13
+      -> trying niceness level = -12
+      -> trying niceness level = -11
+      -> trying niceness level = -10
+      -> trying niceness level = -9
+      -> trying niceness level = -8
+      -> trying niceness level = -7
+      -> trying niceness level = -6
+      -> trying niceness level = -5
+      -> trying niceness level = -4
+      -> trying niceness level = -3
+      -> trying niceness level = -2
+      -> trying niceness level = -1
+      -> trying niceness level = 0
+    + Process has niceness level = 0
+
+Generating dataset "small":
+  * Dataset size: 4000
+  * Invoking genDataset .... Finished
+
+Running "parallelized" implementation:
+  * Invoking the implementation 128 times .... Finished
+  * Verifying results .... Success
+  * Running statistics:
+    + Starting statistics run number #1:
+      - Standard deviation = 197082
+      - Average = 181171
+      - Number of active elements = 128
+      - Number of masked-off = 4
+    + Starting statistics run number #2:
+      - Standard deviation = 92261
+      - Average = 150985
+      - Number of active elements = 124
+      - Number of masked-off = 4
+    + Starting statistics run number #3:
+      - Standard deviation = 63991
+      - Average = 139056
+      - Number of active elements = 120
+      - Number of masked-off = 3
+    + Starting statistics run number #4:
+      - Standard deviation = 52894
+      - Average = 133194
+      - Number of active elements = 117
+      - Number of masked-off = 2
+    + Starting statistics run number #5:
+      - Standard deviation = 47472
+      - Average = 130017
+      - Number of active elements = 115
+      - Number of masked-off = 3
+    + Starting statistics run number #6:
+      - Standard deviation = 41134
+      - Average = 125991
+      - Number of active elements = 112
+      - Number of masked-off = 4
+    + Starting statistics run number #7:
+      - Standard deviation = 32743
+      - Average = 121062
+      - Number of active elements = 108
+      - Number of masked-off = 4
+    + Starting statistics run number #8:
+      - Standard deviation = 24796
+      - Average = 116776
+      - Number of active elements = 104
+      - Number of masked-off = 3
+    + Starting statistics run number #9:
+      - Standard deviation = 19421
+      - Average = 114079
+      - Number of active elements = 101
+      - Number of masked-off = 3
+    + Starting statistics run number #10:
+      - Standard deviation = 16085
+      - Average = 112114
+      - Number of active elements = 98
+      - Number of masked-off = 2
+    + Starting statistics run number #11:
+      - Standard deviation = 14605
+      - Average = 111096
+      - Number of active elements = 96
+      - Number of masked-off = 1
+    + Starting statistics run number #12:
+      - Standard deviation = 13888
+      - Average = 110610
+      - Number of active elements = 95
+      - Number of masked-off = 0
+  * Runtimes (MATCHING):  110610 ns
+  * Dumping runtime informations:
+    - Filename: parallelized_runtimes.csv
+    - Opening file .... Succeeded
+    - Writing runtimes ... Finished
+    - Closing file handle .... Finished
+
+Setting up schedulers and affinity:
+  * Setting the niceness level:
+      -> trying niceness level = -20
+      -> trying niceness level = -19
+      -> trying niceness level = -18
+      -> trying niceness level = -17
+      -> trying niceness level = -16
+      -> trying niceness level = -15
+      -> trying niceness level = -14
+      -> trying niceness level = -13
+      -> trying niceness level = -12
+      -> trying niceness level = -11
+      -> trying niceness level = -10
+      -> trying niceness level = -9
+      -> trying niceness level = -8
+      -> trying niceness level = -7
+      -> trying niceness level = -6
+      -> trying niceness level = -5
+      -> trying niceness level = -4
+      -> trying niceness level = -3
+      -> trying niceness level = -2
+      -> trying niceness level = -1
+      -> trying niceness level = 0
+    + Process has niceness level = 0
+
+Generating dataset "medium":
+  * Dataset size: 16000
+  * Invoking genDataset .... Finished
+
+Running "scalar" implementation:
+  * Invoking the implementation 128 times .... Finished
+  * Verifying results .... Success
+  * Running statistics:
+    + Starting statistics run number #1:
+      - Standard deviation = 15091
+      - Average = 539933
+      - Number of active elements = 128
+      - Number of masked-off = 0
+  * Runtimes (MATCHING):  539933 ns
+  * Dumping runtime informations:
+    - Filename: scalar_runtimes.csv
+    - Opening file .... Succeeded
+    - Writing runtimes ... Finished
+    - Closing file handle .... Finished
+
+Setting up schedulers and affinity:
+  * Setting the niceness level:
+      -> trying niceness level = -20
+      -> trying niceness level = -19
+      -> trying niceness level = -18
+      -> trying niceness level = -17
+      -> trying niceness level = -16
+      -> trying niceness level = -15
+      -> trying niceness level = -14
+      -> trying niceness level = -13
+      -> trying niceness level = -12
+      -> trying niceness level = -11
+      -> trying niceness level = -10
+      -> trying niceness level = -9
+      -> trying niceness level = -8
+      -> trying niceness level = -7
+      -> trying niceness level = -6
+      -> trying niceness level = -5
+      -> trying niceness level = -4
+      -> trying niceness level = -3
+      -> trying niceness level = -2
+      -> trying niceness level = -1
+      -> trying niceness level = 0
+    + Process has niceness level = 0
+
+Generating dataset "medium":
+  * Dataset size: 16000
+  * Invoking genDataset .... Finished
+
+Running "parallelized" implementation:
+  * Invoking the implementation 128 times .... Finished
+  * Verifying results .... Success
+  * Running statistics:
+    + Starting statistics run number #1:
+      - Standard deviation = 125321
+      - Average = 218441
+      - Number of active elements = 128
+      - Number of masked-off = 1
+    + Starting statistics run number #2:
+      - Standard deviation = 17977
+      - Average = 207435
+      - Number of active elements = 127
+      - Number of masked-off = 2
+    + Starting statistics run number #3:
+      - Standard deviation = 16088
+      - Average = 206400
+      - Number of active elements = 125
+      - Number of masked-off = 2
+    + Starting statistics run number #4:
+      - Standard deviation = 14848
+      - Average = 205575
+      - Number of active elements = 123
+      - Number of masked-off = 0
+  * Runtimes (MATCHING):  205575 ns
+  * Dumping runtime informations:
+    - Filename: parallelized_runtimes.csv
+    - Opening file .... Succeeded
+    - Writing runtimes ... Finished
+    - Closing file handle .... Finished
+
+Setting up schedulers and affinity:
+  * Setting the niceness level:
+      -> trying niceness level = -20
+      -> trying niceness level = -19
+      -> trying niceness level = -18
+      -> trying niceness level = -17
+      -> trying niceness level = -16
+      -> trying niceness level = -15
+      -> trying niceness level = -14
+      -> trying niceness level = -13
+      -> trying niceness level = -12
+      -> trying niceness level = -11
+      -> trying niceness level = -10
+      -> trying niceness level = -9
+      -> trying niceness level = -8
+      -> trying niceness level = -7
+      -> trying niceness level = -6
+      -> trying niceness level = -5
+      -> trying niceness level = -4
+      -> trying niceness level = -3
+      -> trying niceness level = -2
+      -> trying niceness level = -1
+      -> trying niceness level = 0
+    + Process has niceness level = 0
+
+Generating dataset "large":
+  * Dataset size: 64000
+  * Invoking genDataset .... Finished
+
+Running "scalar" implementation:
+  * Invoking the implementation 128 times .... Finished
+  * Verifying results .... Success
+  * Running statistics:
+    + Starting statistics run number #1:
+      - Standard deviation = 1282847
+      - Average = 2514521
+      - Number of active elements = 128
+      - Number of masked-off = 3
+    + Starting statistics run number #2:
+      - Standard deviation = 578613
+      - Average = 2352744
+      - Number of active elements = 125
+      - Number of masked-off = 2
+    + Starting statistics run number #3:
+      - Standard deviation = 428600
+      - Average = 2305605
+      - Number of active elements = 123
+      - Number of masked-off = 6
+    + Starting statistics run number #4:
+      - Standard deviation = 265888
+      - Average = 2228553
+      - Number of active elements = 117
+      - Number of masked-off = 5
+    + Starting statistics run number #5:
+      - Standard deviation = 118622
+      - Average = 2178417
+      - Number of active elements = 112
+      - Number of masked-off = 3
+    + Starting statistics run number #6:
+      - Standard deviation = 73983
+      - Average = 2163213
+      - Number of active elements = 109
+      - Number of masked-off = 3
+    + Starting statistics run number #7:
+      - Standard deviation = 57769
+      - Average = 2155412
+      - Number of active elements = 106
+      - Number of masked-off = 2
+    + Starting statistics run number #8:
+      - Standard deviation = 51775
+      - Average = 2151728
+      - Number of active elements = 104
+      - Number of masked-off = 2
+    + Starting statistics run number #9:
+      - Standard deviation = 47389
+      - Average = 2148666
+      - Number of active elements = 102
+      - Number of masked-off = 0
+  * Runtimes (MATCHING):  2148666 ns
+  * Dumping runtime informations:
+    - Filename: scalar_runtimes.csv
+    - Opening file .... Succeeded
+    - Writing runtimes ... Finished
+    - Closing file handle .... Finished
+
+Setting up schedulers and affinity:
+  * Setting the niceness level:
+      -> trying niceness level = -20
+      -> trying niceness level = -19
+      -> trying niceness level = -18
+      -> trying niceness level = -17
+      -> trying niceness level = -16
+      -> trying niceness level = -15
+      -> trying niceness level = -14
+      -> trying niceness level = -13
+      -> trying niceness level = -12
+      -> trying niceness level = -11
+      -> trying niceness level = -10
+      -> trying niceness level = -9
+      -> trying niceness level = -8
+      -> trying niceness level = -7
+      -> trying niceness level = -6
+      -> trying niceness level = -5
+      -> trying niceness level = -4
+      -> trying niceness level = -3
+      -> trying niceness level = -2
+      -> trying niceness level = -1
+      -> trying niceness level = 0
+    + Process has niceness level = 0
+
+Generating dataset "large":
+  * Dataset size: 64000
+  * Invoking genDataset .... Finished
+
+Running "parallelized" implementation:
+  * Invoking the implementation 128 times .... Finished
+  * Verifying results .... Success
+  * Running statistics:
+    + Starting statistics run number #1:
+      - Standard deviation = 77771
+      - Average = 571947
+      - Number of active elements = 128
+      - Number of masked-off = 3
+    + Starting statistics run number #2:
+      - Standard deviation = 35568
+      - Average = 562376
+      - Number of active elements = 125
+      - Number of masked-off = 4
+    + Starting statistics run number #3:
+      - Standard deviation = 24978
+      - Average = 557778
+      - Number of active elements = 121
+      - Number of masked-off = 2
+    + Starting statistics run number #4:
+      - Standard deviation = 21938
+      - Average = 556212
+      - Number of active elements = 119
+      - Number of masked-off = 2
+    + Starting statistics run number #5:
+      - Standard deviation = 20156
+      - Average = 555029
+      - Number of active elements = 117
+      - Number of masked-off = 1
+    + Starting statistics run number #6:
+      - Standard deviation = 19366
+      - Average = 554484
+      - Number of active elements = 116
+      - Number of masked-off = 0
+  * Runtimes (MATCHING):  554484 ns
+  * Dumping runtime informations:
+    - Filename: parallelized_runtimes.csv
+    - Opening file .... Succeeded
+    - Writing runtimes ... Finished
+    - Closing file handle .... Finished
+
+    Setting up schedulers and affinity:
+  * Setting the niceness level:
+      -> trying niceness level = -20
+      -> trying niceness level = -19
+      -> trying niceness level = -18
+      -> trying niceness level = -17
+      -> trying niceness level = -16
+      -> trying niceness level = -15
+      -> trying niceness level = -14
+      -> trying niceness level = -13
+      -> trying niceness level = -12
+      -> trying niceness level = -11
+      -> trying niceness level = -10
+      -> trying niceness level = -9
+      -> trying niceness level = -8
+      -> trying niceness level = -7
+      -> trying niceness level = -6
+      -> trying niceness level = -5
+      -> trying niceness level = -4
+      -> trying niceness level = -3
+      -> trying niceness level = -2
+      -> trying niceness level = -1
+      -> trying niceness level = 0
+    + Process has niceness level = 0
+
+Generating dataset "native":
+  * Dataset size: 10000000
+  * Invoking genDataset .... Finished
+
+Running "scalar" implementation:
+  * Invoking the implementation 128 times .... 
+Finished
+  * Verifying results .... Success
+  * Running statistics:
+    + Starting statistics run number #1:
+      - Standard deviation = 58989273
+      - Average = 361919261
+      - Number of active elements = 128
+      - Number of masked-off = 2
+    + Starting statistics run number #2:
+      - Standard deviation = 32935368
+      - Average = 355821101
+      - Number of active elements = 126
+      - Number of masked-off = 5
+    + Starting statistics run number #3:
+      - Standard deviation = 20275104
+      - Average = 350561190
+      - Number of active elements = 121
+      - Number of masked-off = 7
+    + Starting statistics run number #4:
+      - Standard deviation = 7670644
+      - Average = 345948723
+      - Number of active elements = 114
+      - Number of masked-off = 3
+    + Starting statistics run number #5:
+      - Standard deviation = 6290030
+      - Average = 345213934
+      - Number of active elements = 111
+      - Number of masked-off = 2
+    + Starting statistics run number #6:
+      - Standard deviation = 5601582
+      - Average = 344814378
+      - Number of active elements = 109
+      - Number of masked-off = 0
+  * Runtimes (MATCHING):  344814378 ns
+  * Dumping runtime informations:
+    - Filename: scalar_runtimes.csv
+    - Opening file .... Succeeded
+    - Writing runtimes ... Finished
+    - Closing file handle .... Finished
+
+Setting up schedulers and affinity:
+  * Setting the niceness level:
+      -> trying niceness level = -20
+      -> trying niceness level = -19
+      -> trying niceness level = -18
+      -> trying niceness level = -17
+      -> trying niceness level = -16
+      -> trying niceness level = -15
+      -> trying niceness level = -14
+      -> trying niceness level = -13
+      -> trying niceness level = -12
+      -> trying niceness level = -11
+      -> trying niceness level = -10
+      -> trying niceness level = -9
+      -> trying niceness level = -8
+      -> trying niceness level = -7
+      -> trying niceness level = -6
+      -> trying niceness level = -5
+      -> trying niceness level = -4
+      -> trying niceness level = -3
+      -> trying niceness level = -2
+      -> trying niceness level = -1
+      -> trying niceness level = 0
+    + Process has niceness level = 0
+
+Generating dataset "native":
+  * Dataset size: 10000000
+  * Invoking genDataset .... Finished
+
+Running "parallelized" implementation:
+  * Invoking the implementation 128 times .... Finished
+  * Verifying results .... Success
+  * Running statistics:
+    + Starting statistics run number #1:
+      - Standard deviation = 11333881
+      - Average = 69556751
+      - Number of active elements = 128
+      - Number of masked-off = 3
+    + Starting statistics run number #2:
+      - Standard deviation = 9955261
+      - Average = 68685962
+      - Number of active elements = 125
+      - Number of masked-off = 0
+  * Runtimes (MATCHING):  68685962 ns
+  * Dumping runtime informations:
+    - Filename: parallelized_runtimes.csv
+    - Opening file .... Succeeded
+    - Writing runtimes ... Finished
+    - Closing file handle .... Finished
