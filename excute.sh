@@ -1,2 +1,2 @@
-./build/blackscholes -i scalar -d native
-./build/blackscholes -i para -d native
+./build/blackscholes -i scalar -d small
+./build/blackscholes -i para -d small
